@@ -12,6 +12,8 @@ import artist1 from '../assets/Events/artists/image1.png'
 import artist2 from '../assets/Events/artists/image2.png'
 import artist3 from '../assets/Events/artists/image3.png'
 
+import qrImg from '../assets/Events/qr.png';
+
 const slides = [image1,image2,image3,image4]
 const content = [
   "Event : Oasis Bus tour , JLN Stadium , Delhi ",
@@ -99,7 +101,8 @@ const Events = () => {
                    <img className="h-[150px] w-[150px] rounded-lg" src={artist3} alt="artist3" /> 
                 </div>
             
-                <div className="flex justify-end m-4 pt-10 ">
+                <div className="flex justify-between m-4 pt-10 ">
+                  <img src={qrImg} className="h-[90px]" alt="qr-image" />
                   <button className="bg-[#FFCA5F] text-black p-2 font-medium rounded-3xl mt-10">
                     Join Waitlist
                   </button>
