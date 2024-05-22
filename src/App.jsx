@@ -1,12 +1,10 @@
-// import Splashscreen from "./components/Splashscreen"
-
-import Landing from "./components/Landing"
+import Splashscreen from "./components/Splashscreen"
 
 const App = () => {
 
   return (
     <>
-     <Landing/>
+     <Splashscreen/>
     </>
   )
 }
