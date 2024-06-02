@@ -1,8 +1,12 @@
 # React + Vite
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+events and collections website for latest events that are being held along with their locations
 
-Currently, two official plugins are available:
+### Features
+- Navigation between events and collections
+- responsive for both desktop and mobile view
+- Animations for great visual display
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+### How to run 
+Clone the github repository and install all the required dependencies using `npm i` .
+After installing all the dependencies run the project on your local using `npm run dev` and get the project running on your local.
